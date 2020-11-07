@@ -28,6 +28,14 @@
         "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\raw_tasbih.mp3.flat",
+        "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\raw\\tasbih.mp3"
+    },
+    {
+        "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\raw_tahmid.mp3.flat",
+        "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\raw\\tahmid.mp3"
+    },
+    {
         "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -68,8 +76,16 @@
         "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\raw_takbir.mp3.flat",
+        "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\raw\\takbir.mp3"
+    },
+    {
         "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\raw_tahlil.mp3.flat",
+        "source": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\src\\main\\res\\raw\\tahlil.mp3"
     },
     {
         "merged": "C:\\Users\\jenly\\Documents\\New folder (2)\\DzikirApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",

@@ -1,37 +1,67 @@
 package com.pemprog4.counterapp;
 
+import android.content.Context;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Vibrator;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import java.lang.Math;
+import android.view.View;
+import android.widget.TextView;
 
-public class Score extends MainActivity {
+public class Score extends AppCompatActivity {
+
+    TextView dzikir;
+    int zikir = 0;
+    Vibrator vibe;
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_score);
+        setContentView(R.layout.activity_main);
+        dzikir = (TextView) findViewById(R.id.dzikir);
+        vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+    }
+
+    public void subhanallah(View view) {
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tasbih);
+        mediaPlayer.start();
+        zikir = zikir + 1;
+        tampil(zikir);
+        vibe.vibrate(100);
+    }
+
+    public void alhamdulillah(View view) {
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tahmid);
+        mediaPlayer.start();
+        zikir = zikir + 1;
+        tampil(zikir);
+        vibe.vibrate(100);
+    }
+
+    public void lailahaillallah(View view) {
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.tahlil);
+        mediaPlayer.start();
+        zikir = zikir + 1;
+        tampil(zikir);
+        vibe.vibrate(100);
+    }
+
+    public void allahuakbar(View view) {
+        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.takbir);
+        mediaPlayer.start();
+        zikir = zikir + 1;
+        tampil(zikir);
+        vibe.vibrate(100);
     }
 
     public void tampil(int z) {
         dzikir.setText("" + z);
     }
-//    public class MaxMin{
-//        public static void main(String[] args){
-//            int zikir, angka2, angka3, maks;
-//            zikir = 10;
-//            angka2 = 300;
-//            angka3 = 20;
-//
-//            maks = Math.max(angka1, angka2);
-//            if (angka3 > maks) {
-//                maks = angka3;
-//            }
-//            System.out.println("Angka maksimum adalah= "+maks);
-//        }
-//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
