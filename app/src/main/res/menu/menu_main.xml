@@ -7,7 +7,7 @@
         android:id="@+id/about"
         android:title="About" />
     <item
-        android:id="@+id/score"
-        android:title="Score" />
+        android:id="@+id/full_assistant"
+        android:title="Full Assistant" />
 </menu>
 

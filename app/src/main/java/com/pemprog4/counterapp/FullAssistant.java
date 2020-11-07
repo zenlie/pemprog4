@@ -12,7 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-public class Score extends AppCompatActivity {
+public class FullAssistant extends AppCompatActivity {
 
     TextView dzikir;
     int zikir = 0;
@@ -22,7 +22,7 @@ public class Score extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_full_assistant);
         dzikir = (TextView) findViewById(R.id.dzikir);
         vibe = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
     }
@@ -74,19 +74,19 @@ public class Score extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.home) {
-            Intent intent = new Intent(Score.this, MainActivity.class);
+            Intent intent = new Intent(FullAssistant.this, MainActivity.class);
             startActivity(intent);
             return true;
         }
         else
         if (id == R.id.about) {
-            Intent intent = new Intent(Score.this, About.class);
+            Intent intent = new Intent(FullAssistant.this, About.class);
             startActivity(intent);
             return true;
         }
         else
-        if (id == R.id.score) {
-            Intent intent = new Intent(Score.this, Score.class);
+        if (id == R.id.full_assistant) {
+            Intent intent = new Intent(FullAssistant.this, FullAssistant.class);
             startActivity(intent);
             return true;
         }

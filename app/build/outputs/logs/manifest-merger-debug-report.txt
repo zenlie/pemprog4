@@ -80,10 +80,10 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jenly\.gra
 		ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
 		ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:13:9-40
-activity#com.pemprog4.counterapp.Score
-ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:14:9-52
+activity#com.pemprog4.counterapp.FullAssistant
+ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:14:9-60
 	android:name
-		ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:14:19-40
+		ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:14:19-48
 activity#com.pemprog4.counterapp.About
 ADDED from C:\Users\jenly\Documents\New folder (2)\DzikirApp\app\src\main\AndroidManifest.xml:15:9-43
 	android:name

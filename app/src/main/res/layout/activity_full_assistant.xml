@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context="com.pemprog4.counterapp.Score">
+    tools:context="com.pemprog4.counterapp.FullAssistant">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +50,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="101dp"
+        android:layout_height="104dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">
@@ -88,7 +88,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="120dp"
+        android:layout_height="104dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">
@@ -164,7 +164,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="104dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">

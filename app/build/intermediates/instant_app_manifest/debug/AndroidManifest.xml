@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.pemprog4.counterapp.Score" />
+        <activity android:name="com.pemprog4.counterapp.FullAssistant" />
         <activity android:name="com.pemprog4.counterapp.About" />
         <activity android:name="com.pemprog4.counterapp.MainActivity" >
             <intent-filter>

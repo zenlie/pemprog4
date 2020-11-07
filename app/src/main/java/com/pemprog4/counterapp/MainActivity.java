@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else
-        if (id == R.id.score) {
-            Intent intent = new Intent(MainActivity.this, Score.class);
+        if (id == R.id.full_assistant) {
+            Intent intent = new Intent(MainActivity.this, FullAssistant.class);
             startActivity(intent);
             return true;
         }

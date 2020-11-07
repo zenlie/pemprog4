@@ -27,8 +27,8 @@ public class About extends MainActivity {
             return true;
         }
         else
-        if (id == R.id.score) {
-            Intent intent = new Intent(About.this, Score.class);
+        if (id == R.id.full_assistant) {
+            Intent intent = new Intent(About.this, FullAssistant.class);
             startActivity(intent);
             return true;
         }

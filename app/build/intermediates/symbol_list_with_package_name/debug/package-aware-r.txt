@@ -1022,6 +1022,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable untitled
 id ALT
 id CTRL
 id FUNCTION
@@ -1098,6 +1099,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id full_assistant
 id ghost_view
 id gone
 id group_divider
@@ -1118,6 +1120,12 @@ id largeLabel
 id left
 id line1
 id line3
+id linearLayout
+id linearLayout2
+id linearLayout3
+id linearLayout4
+id linearLayout5
+id linearLayout6
 id listMode
 id list_item
 id ll
@@ -1153,7 +1161,6 @@ id right_side
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
-id score
 id screen
 id scroll
 id scrollIndicatorDown
@@ -1202,12 +1209,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
-id textView3
-id textView4
-id textView5
-id textView6
-id textView7
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1281,8 +1282,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_about
+layout activity_full_assistant
 layout activity_main
-layout activity_score
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
